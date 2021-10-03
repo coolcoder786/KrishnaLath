@@ -1,0 +1,26 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+body {
+  background-color: black;
+
+}
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+p{
+  color: white;
+}
+.html {width: 70%; background-color: #04AA6D;} 
+.css {width: 60%; background-color: orange;} 
+.js {width: 50%; background-color: #f44336;}
+.python {width: 80%; background-color: yellow;}
+.flutter {width: 60%; background-color: blue;}
